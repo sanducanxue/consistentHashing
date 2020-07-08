@@ -49,9 +49,9 @@ public class MyApp {
         }
         double sqrt = Math.sqrt(totalPow / nodeNum);
         System.out.println("虚拟节点数： " + tempNodeNum + "  " +"节点数 :" +nodeNum);
-        /*for (Map.Entry<String, Integer> entry : map.entrySet()) {
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
             System.out.println("ip :" + entry.getKey() + "  " + "命中次数 ：" + entry.getValue());
-        }*/
+        }
         System.out.println("标准差： " + sqrt);
     }
 }
