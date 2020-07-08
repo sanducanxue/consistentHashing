@@ -3,7 +3,7 @@
  */
 public class Node {
     private String ip;//节点ip地址
-    private int num = 100;//对应虚拟节点个数
+    private int num = 10000;//对应虚拟节点个数
 
     public Node(String ip, int num) {
         this.ip = ip;
